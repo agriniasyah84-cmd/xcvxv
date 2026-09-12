@@ -1,4 +1,4 @@
-name: Deploy React Vite to GitHub Pages
+name: Deploy TanStack Start to GitHub Pages
 
 on:
   push:
@@ -22,18 +22,24 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build
+      - name: Build static site
         run: npm run build
 
-      - name: Upload artifact
+      - name: Prepare GitHub Pages
+        run: |
+          mkdir public-pages
+          cp -r .vercel/output/static/* public-pages/
+
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: public-pages
 
   deploy:
     needs: build
