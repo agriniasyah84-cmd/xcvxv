@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Kipas & Payung",
+      "hasCanvas": false,
+      "bodyTextLen": 1721,
+      "bodyTextHash": "154a79bb37f114768797861348dafa34e71b6488777d7082c197393f944ae0b4",
+      "bodyTextPrefix": "Kipas & Payung WHERE WINDS MEET Beranda DPS Healer Bandingkan Ch",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Kipas & Payung",
+      "hasCanvas": false,
+      "bodyTextLen": 1664,
+      "bodyTextHash": "3b0c4cec60bbb531ecb21645751227f96e256292ba7d130b947de38fb37dd758",
+      "bodyTextPrefix": "Kipas & Payung WHERE WINDS MEET · META 1.7 Fan + Umbrella. Pandu",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

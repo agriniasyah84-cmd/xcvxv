@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <rect width="16" height="16" rx="3" fill="#0b0c0b"/>
+  <!-- folding fan: one celadon sector + a single ink fold -->
+  <path fill="#8aa39c" d="M4.8 13 L1 8 L2.8 4.2 L6.8 5.2 Z"/>
+  <path fill="none" stroke="#0b0c0b" stroke-width="1" d="M4.8 13 L2.8 4.2"/>
+  <!-- oil-paper umbrella, 2px ink gutter from the fan -->
+  <path fill="none" stroke="#8aa39c" stroke-width="1.5" stroke-linecap="round"
+    d="M9.1 6.8 Q12.5 3.4 15.4 6.9"/>
+  <path fill="none" stroke="#8aa39c" stroke-width="1.5" stroke-linecap="round"
+    d="M12.5 6.8 V13.2"/>
+</svg>
